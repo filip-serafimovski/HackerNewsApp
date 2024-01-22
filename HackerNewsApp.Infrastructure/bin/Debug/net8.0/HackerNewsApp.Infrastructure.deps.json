@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HackerNewsApp.Infrastructure/1.0.0": {
+        "dependencies": {
+          "HackerNewsApp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "HackerNewsApp.Infrastructure.dll": {}
+        }
+      },
+      "HackerNewsApp.Domain/1.0.0": {
+        "runtime": {
+          "HackerNewsApp.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HackerNewsApp.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HackerNewsApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

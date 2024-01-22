@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "HackerNewsApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/HackerNewsApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HackerNewsApp.Domain.dll": {}
+        }
+      },
+      "HackerNewsApp.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "HackerNewsApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HackerNewsApp.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HackerNewsApp.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HackerNewsApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../HackerNewsApp.Domain/HackerNewsApp.Domain.csproj",
+      "msbuildProject": "../HackerNewsApp.Domain/HackerNewsApp.Domain.csproj"
+    },
+    "HackerNewsApp.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../HackerNewsApp.Infrastructure/HackerNewsApp.Infrastructure.csproj",
+      "msbuildProject": "../HackerNewsApp.Infrastructure/HackerNewsApp.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "HackerNewsApp.Domain >= 1.0.0",
+      "HackerNewsApp.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\HackerNewsApp\\HackerNewsApp.Application\\HackerNewsApp.Application.csproj",
+      "projectName": "HackerNewsApp.Application",
+      "projectPath": "C:\\Users\\Lenovo\\source\\repos\\HackerNewsApp\\HackerNewsApp.Application\\HackerNewsApp.Application.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lenovo\\source\\repos\\HackerNewsApp\\HackerNewsApp.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\Lenovo\\source\\repos\\HackerNewsApp\\HackerNewsApp.Domain\\HackerNewsApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\source\\repos\\HackerNewsApp\\HackerNewsApp.Domain\\HackerNewsApp.Domain.csproj"
+            },
+            "C:\\Users\\Lenovo\\source\\repos\\HackerNewsApp\\HackerNewsApp.Infrastructure\\HackerNewsApp.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\source\\repos\\HackerNewsApp\\HackerNewsApp.Infrastructure\\HackerNewsApp.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

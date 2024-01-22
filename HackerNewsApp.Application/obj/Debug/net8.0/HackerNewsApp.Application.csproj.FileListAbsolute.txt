@@ -1,0 +1,17 @@
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Application\bin\Debug\net8.0\HackerNewsApp.Application.deps.json
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Application\bin\Debug\net8.0\HackerNewsApp.Application.dll
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Application\bin\Debug\net8.0\HackerNewsApp.Application.pdb
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Application\bin\Debug\net8.0\HackerNewsApp.Domain.dll
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Application\bin\Debug\net8.0\HackerNewsApp.Infrastructure.dll
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Application\bin\Debug\net8.0\HackerNewsApp.Domain.pdb
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Application\bin\Debug\net8.0\HackerNewsApp.Infrastructure.pdb
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Application\obj\Debug\net8.0\HackerNewsApp.Application.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Application\obj\Debug\net8.0\HackerNewsApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Application\obj\Debug\net8.0\HackerNewsApp.Application.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Application\obj\Debug\net8.0\HackerNewsApp.Application.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Application\obj\Debug\net8.0\HackerNewsApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Application\obj\Debug\net8.0\HackerNewsApp.Application.csproj.CopyComplete
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Application\obj\Debug\net8.0\HackerNewsApp.Application.dll
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Application\obj\Debug\net8.0\refint\HackerNewsApp.Application.dll
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Application\obj\Debug\net8.0\HackerNewsApp.Application.pdb
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Application\obj\Debug\net8.0\ref\HackerNewsApp.Application.dll

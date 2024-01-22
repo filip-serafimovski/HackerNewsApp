@@ -1,0 +1,41 @@
+﻿@model ItemDetailsViewModel
+
+<h2>@Model.Item.Title</h2>
+<br />
+
+<h3><b>Story</b></h3>
+
+<div><b>By:</b> @Model.Item.By</div>
+<div><b>Written:</b> @Model.Item.Time?.ToString("yyyy-MM-dd HH:mm:ss")</div>
+<div><b>Score:</b> @Model.Item.Score</div>
+<div><b>Comments:</b> @Model.Item.Descendants</div>
+@if (!string.IsNullOrEmpty(Model.Item.Url))
+{
+    <div>
+        <b>Read here: </b>
+        <a href="@Model.Item.Url" target="_blank">@Model.Item.Url</a>
+    </div>
+}
+<br />
+
+<h3><b>Comments</b></h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>By</th>
+            <th width="25%">Written</th>
+            <th>Text</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ChildItems)
+        {
+            <tr>
+                <td>@item.By</td>
+                <td>@item.Time?.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                <td>@item.Text</td>
+            </tr>
+        }
+    </tbody>
+</table>

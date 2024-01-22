@@ -1,0 +1,11 @@
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Domain\bin\Debug\net8.0\HackerNewsApp.Domain.deps.json
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Domain\bin\Debug\net8.0\HackerNewsApp.Domain.dll
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Domain\bin\Debug\net8.0\HackerNewsApp.Domain.pdb
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Domain\obj\Debug\net8.0\HackerNewsApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Domain\obj\Debug\net8.0\HackerNewsApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Domain\obj\Debug\net8.0\HackerNewsApp.Domain.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Domain\obj\Debug\net8.0\HackerNewsApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Domain\obj\Debug\net8.0\HackerNewsApp.Domain.dll
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Domain\obj\Debug\net8.0\refint\HackerNewsApp.Domain.dll
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Domain\obj\Debug\net8.0\HackerNewsApp.Domain.pdb
+C:\Users\Lenovo\source\repos\HackerNewsApp\HackerNewsApp.Domain\obj\Debug\net8.0\ref\HackerNewsApp.Domain.dll

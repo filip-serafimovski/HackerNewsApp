@@ -1,0 +1,49 @@
+﻿@model IEnumerable<HackerNewsApp.Domain.Entities.Item>
+
+<h1>Latest Hacker News</h1>
+
+<form method="get">
+    <div style="margin-bottom: 10px;">
+        <input type="text" placeholder="Search by keyword" name="search">
+        <button type="submit">Search</button>
+    </div>
+</form>
+
+<div class="btn-group" role="group" aria-label="Filter options">
+    <a asp-action="Index" asp-route-filter="All" class="btn btn-primary" style="margin-right:10px">All</a>
+    <a asp-action="Index" asp-route-filter="Hot" class="btn btn-primary" style="margin-right:10px">Hot</a>
+    <a asp-action="Index" asp-route-filter="Show HN" class="btn btn-primary" style="margin-right:10px">Show HN</a>
+    <a asp-action="Index" asp-route-filter="Ask HN" class="btn btn-primary">Ask HN</a>
+</div>
+<br />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th width="25%">Title</th>
+            <th>By</th>
+            <th>Written</th>
+            <th>Score</th>
+            <th>Comments</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>@item.By</td>
+                <td>@item.Time.Value.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                <td>@item.Score</td>
+                <td>@item.Descendants</td>
+                <td>
+                    <form asp-controller="Item" asp-action="Details" method="get">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <button type="submit" class="btn btn-primary">Details</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
